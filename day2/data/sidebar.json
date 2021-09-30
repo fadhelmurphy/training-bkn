@@ -1,0 +1,10 @@
+[
+    {
+        "url":"/",
+        "text":"Home"
+    },
+    {
+        "url":"/registration",
+        "text":"Registration"
+    }
+]

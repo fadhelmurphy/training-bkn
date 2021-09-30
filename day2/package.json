@@ -1,0 +1,20 @@
+{
+  "name": "latihan",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "bootstrap": "^5.1.1",
+    "chart.js": "^3.5.1",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-bootstrap": "^2.0.0-rc.0",
+    "react-chartjs-2": "^3.0.5",
+    "react-dom": "17.0.2"
+  }
+}
