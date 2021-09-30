@@ -6,7 +6,6 @@ import { useRouter } from 'next/router';
 import sidebar from '../data/sidebar.json'
 
 export default function Sidebar(){
-    console.log(sidebar)
     const { pathname } = useRouter();
     const data = [
         {
