@@ -7,23 +7,9 @@ import sidebar from '../data/sidebar.json'
 
 export default function Sidebar(){
     const { pathname } = useRouter();
-    const data = [
-        {
-            url:'/',
-            text:'Home'
-        },
-        {
-            url:'/registration',
-            text:'Registration'
-        },
-        {
-            url:'/chart',
-            text:'Chart'
-        }
-    ]
     return(
 <Nav className="flex-column">
-    {data.map(el=>
+    {sidebar.map(el=>
         
         <Link href={el.url}>
             <a className={"text-dark nav-link"+ (pathname==el.url?' active':'')} >

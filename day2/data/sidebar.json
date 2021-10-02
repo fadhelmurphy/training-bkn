@@ -6,5 +6,10 @@
     {
         "url":"/registration",
         "text":"Registration"
+    },
+    
+    {
+        "url":"/chart",
+        "text":"Chart"
     }
 ]
